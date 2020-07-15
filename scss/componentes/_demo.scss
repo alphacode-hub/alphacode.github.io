@@ -1,0 +1,132 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .demo{
+        color: $color-tercero;
+    }
+    .demo h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .demo p {
+        font-size: .4em;
+    }
+    .demo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .card {
+        border: 1px solid $color-llamativo;
+    }
+    .card-divider {
+        background-color: $color-segundo;
+        color: $color-llamativo;
+        font-size: .7em;
+    }
+    .segundaview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .demo{
+        color: $color-tercero;
+    }
+    .demo h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .demo p {
+        font-size: .4em;
+    }
+    .demo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .card {
+        border: 1px solid $color-llamativo;
+    }
+    .card-divider {
+        background-color: $color-segundo;
+        color: $color-llamativo;
+        font-size: .7em;
+    }
+    .segundaview {
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    .demo{
+        color: $color-tercero;
+    }
+    .demo h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .demo p {
+        font-size: .4em;
+    }
+    .demo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .card {
+        border: 1px solid $color-llamativo;
+    }
+    .card-divider {
+        background-color: $color-segundo;
+        color: $color-llamativo;
+        font-size: .7em;
+    }
+    .segundaview {
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
+
+/* xLarge only */
+@media screen and (min-width: 75em) {
+    .demo{
+        color: $color-tercero;
+    }
+    .demo h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .demo p {
+        font-size: .4em;
+    }
+    .demo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .card {
+        border: 1px solid $color-llamativo;
+    }
+    .card-divider {
+        background-color: $color-segundo;
+        color: $color-llamativo;
+        font-size: .7em;
+    }
+    .segundaview {
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}

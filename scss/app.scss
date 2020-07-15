@@ -1,0 +1,39 @@
+$fondo-primary: hsla(210,3%,15%,1);
+$fondo-secondary: hsla(210,4%,10%,1);
+$fondo-secondary-trans: hsla(210,4%,10%,.70);
+$color-primary: hsla(223,15%,91%,1);
+$color-secondary: hsla(123, 51%, 39%, 1);
+$color-tertiary: hsla(213, 100%, 64%, 1);
+$margin-bottom: 50px;
+
+body {
+    background-color: lighten($color: $fondo-secondary , $amount: 10%);
+    color: lighten($color: $color-primary, $amount: 20%);
+}
+
+.bgfondo {
+    background: url('/static/img/01.jpg')no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

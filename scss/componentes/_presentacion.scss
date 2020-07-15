@@ -1,0 +1,140 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+.presentacion{
+    margin: 10%;
+    color: $color-tercero;
+}
+.presentacion h1 {
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.presentacion img {
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.presentacion p {
+    font-size: .4em;
+}
+.presentacion span {
+    text-transform: uppercase;
+    color: $color-llamativo;
+    font-size: 1em;
+    font-style: italic;
+}
+.rrss i {
+    color: $color-llamativo;
+    font-size: .5em;
+}
+.primeraview {
+    margin-bottom: 5%;
+    border-bottom: 2px dotted $color-llamativo;
+}
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .presentacion{
+        margin: 5%;
+        color: $color-tercero;
+    }
+    .presentacion h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .presentacion img {
+        width: 70%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    
+    .presentacion p {
+        font-size: .5em;
+    }
+    .presentacion span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .rrss i {
+        color: $color-llamativo;
+        font-size: .5em;
+    }
+    .primeraview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+    
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    .presentacion{
+        margin: 5%;
+        color: $color-tercero;
+    }
+    .presentacion h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .presentacion img {
+        width: 70%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    
+    .presentacion p {
+        font-size: .5em;
+    }
+    .presentacion span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .rrss i {
+        color: $color-llamativo;
+        font-size: .5em;
+    }
+    .primeraview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
+
+/* xLarge only */
+@media screen and (min-width: 75em) {
+    .presentacion{
+        color: $color-tercero;
+    }
+    .presentacion h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .presentacion img {
+        width: 50%;
+    }
+    
+    .presentacion p {
+        font-size: .5em;
+    }
+    .presentacion span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .rrss i {
+        color: $color-llamativo;
+        font-size: .5em;
+    }
+    .primeraview {
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}

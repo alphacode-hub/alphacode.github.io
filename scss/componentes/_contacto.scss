@@ -1,0 +1,191 @@
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .contacto{
+        margin: 10%;
+        color: $color-tercero;
+    }
+    .contacto h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .contacto span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .contacto a {
+        font-size: .4em;
+        color: $color-tercero;
+    }
+    .logo a {
+        color: $color-tercero;
+    }
+    .logo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .imgcontacto {
+        width: 70%;
+    }
+    .rrsscontacto p {
+        font-size: .4em;
+    }
+    .rrsscontacto a {
+        margin: auto;
+        text-decoration: none;
+        color: $color-llamativo;
+    }
+    .terceraview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+   
+    
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .contacto{
+        color: $color-tercero;
+    }
+    .contacto h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .contacto span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .contacto a {
+        font-size: .4em;
+        color: $color-tercero;
+    }
+    .logo a {
+        color: $color-tercero;
+    }
+    .logo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .imgcontacto {
+        width: 70%;
+        height: 100%;
+    }
+    .rrsscontacto p {
+        font-size: .4em;
+    }
+    .rrsscontacto a {
+        margin: auto;
+        text-decoration: none;
+        color: $color-llamativo;
+    }
+    .terceraview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    .contacto{
+        color: $color-tercero;
+    }
+    .contacto h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 5%;
+    }
+    .contacto span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .contacto a {
+        font-size: .4em;
+        color: $color-tercero;
+    }
+    .logo a {
+        color: $color-tercero;
+    }
+    .logo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .imgcontacto {
+        width: 70%;
+    }
+    .rrsscontacto p {
+        font-size: .4em;
+    }
+    .rrsscontacto a {
+        margin: auto;
+        text-decoration: none;
+        color: $color-llamativo;
+        font-size: .7em;
+    }
+    .terceraview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
+
+/* xLarge only */
+@media screen and (min-width: 75em) {
+    .contacto{
+        color: $color-tercero;
+    }
+    .contacto h1 {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 5%;
+    }
+    .contacto span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-size: 1em;
+        font-style: italic;
+    }
+    .contacto a {
+        font-size: .4em;
+        color: $color-tercero;
+    }
+    .logo a {
+        color: $color-tercero;
+    }
+    .logo span {
+        text-transform: uppercase;
+        color: $color-llamativo;
+        font-weight: bold;
+        font-style: normal;
+    }
+    .imgcontacto {
+        width: 70%;
+    }
+    .rrsscontacto p {
+        font-size: .4em;
+    }
+    .rrsscontacto a {
+        margin: auto;
+        text-decoration: none;
+        color: $color-llamativo;
+        font-size: .7em;
+    }
+    .terceraview {
+        margin-bottom: 5%;
+        border-bottom: 2px dotted $color-llamativo;
+    }
+}
